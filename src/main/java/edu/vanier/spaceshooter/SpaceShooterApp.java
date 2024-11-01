@@ -26,7 +26,7 @@ public class SpaceShooterApp extends Application {
             loader.setController(controller);
             Pane root = loader.load();
             //-- 2) Create and set the scene to the stage.
-            Scene scene = new Scene(root, 1000, 1000);
+            Scene scene = new Scene(root, 800, 800);
             controller.setScene(scene);
             controller.initGameComponents();
             primaryStage.setScene(scene);

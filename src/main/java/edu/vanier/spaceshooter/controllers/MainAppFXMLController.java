@@ -32,6 +32,8 @@ public class MainAppFXMLController {
 
     public void initGameComponents() {
         createContent();
+        
+        
         this.mainScene.setOnKeyPressed(e -> {
             switch (e.getCode()) {
                 case A:
